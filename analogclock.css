@@ -13,7 +13,7 @@
 @font-face {
 	font-family: 'analogclock';
 	src: url('https://github.com/SandroCoutinho/PE-Analog-Clock-icon-font/blob/master/fonts/analogclock.eot');
-	src: url('https://github.com/SandroCoutinho/PE-Analog-Clock-icon-font/blob/master/fonts/analogclock.eot?#iefix') format('embedded-opentype');
+	src: url('https://github.com/SandroCoutinho/PE-Analog-Clock-icon-font/blob/master/fonts/analogclock.eot&#iefix') format('embedded-opentype');
 }
 @font-face {
 	font-family: 'analogclock';
