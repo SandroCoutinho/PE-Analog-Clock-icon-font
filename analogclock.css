@@ -8,25 +8,12 @@
  *
  * SVG first, because it looks best in browsers that support it, then Truetype, then WOFF. 
  * Base64 encoded font for a quicker download (fewer HTTP requests). 
- * If you would like to use the font files instead, use the Fontspring @font-face declaration as you normally would (see below). 
-
-@font-face {
-    font-family: "analogtime";
-    src: url("fonts/analogclock.eot");
-    src: local('☺'),
-       url("fonts/analogclock.eot?#iefix") format('embedded-opentype'), 
-       url('fonts/analogclock.svg?#analog') format('svg'), 
-       url('fonts/analogclock.ttf') format('truetype'),
-       url('fonts/analogclock.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
- 
+ * If you would like to use the font files instead, use the Fontspring @font-face declaration as you normally would (see below).
  */
 @font-face {
 	font-family: 'analogclock';
-	src: url('fonts/analogclock.eot');
-	src: url('fonts/analogclock.eot?#iefix') format('embedded-opentype');
+	src: url('https://github.com/SandroCoutinho/PE-Analog-Clock-icon-font/blob/master/fonts/analogclock.eot?raw=true');
+	src: url('https://github.com/SandroCoutinho/PE-Analog-Clock-icon-font/blob/master/fonts/analogclock.eot?raw=true?#iefix') format('embedded-opentype');
 }
 @font-face {
 	font-family: 'analogclock';
